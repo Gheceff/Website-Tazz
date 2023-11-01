@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Lora&family=Roboto:ital,wght@1,100&family=Young+Serif&display=swap');
+*{
+    font-family: 'Caprasimo', serif;
+font-family: 'Lora', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Young Serif', serif;
+}
+
+/* Header */
+/*Sectiunea 1*/
+
+.element-1{
+    text-align: center;
+    background-color: #F9D3A5;
+    padding: 8px;
+    
+}
+
+.element-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 150px;
+    margin-top: 30px;
+}
+
+.element-3{
+    display: flex;
+    text-decoration: none;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    margin-right: 20px;
+    font-size: 20px;
+    margin-top: 40px;
+
+    
+}
+
+.element-3 a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Main  */
+
+/* Sectiunea 2*/
+
+.sectiunea-2{
+display: flex;
+gap: 60px;
+margin-top: 40px;
+}
+
+.paragraf-1{
+    align-self: center;
+}
+
+.buton-1 input{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 7px;
+    width: 120px;
+}
+
+
+/* Sectiunea 3*/
+
+.element-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 850px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.titlu-2{
+    font-size: 30px;
+}
+
+.imagini-2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: row-reverse;
+}
+
+.text-1{
+    display: flex;
+    justify-content: center;
+    gap: 270px;
+    
+}
+
+h5{
+    text-align: center;
+    font-size: 16px;
+}
+.text-1 a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Repeat */
+.sectiunea-4{
+    display: flex;
+    gap: 150px;
+    margin-top: 40px;
+    flex-direction: row-reverse;
+    font-size: 20px;
+    
+    }
+    
+    .paragraf-2{
+        align-self: center;
+    }
+    
+    .buton-2 input{
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        padding: 10px;
+        width: 200px;
+    }
+
+    
+    /* REPEAT*/
+
+    .partea-2 .element-4{
+        gap: 700px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .partea-2 .text-1{
+        text-align: center;
+    }
+    .partea-2 a{
+        text-decoration: underline;
+        
+    }
+
+
+    /* Footer */
+
+   footer{
+    background-image: url(content-pixie-m-gqDRzbJLQ-unsplash\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   }
+
+   .text-1-footer{
+    color: white;
+    
+   }
+
+   footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 500px;
+    text-align: center;
+   }
+
+   footer input{
+    padding: 10px;
+    width: 180px;
+    cursor: pointer;
+    
+   }
+
+   .end{
+    display: flex;
+    justify-content: center;
+    
+    gap: 50px;
+   
+    background-color: #713624;
+    margin-top: -100px;
+    
+    color: white;
+    padding-top: 50px;
+   }
+
+   .end a{
+    color: white;
+   }
+
+   .coloana-2{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+     
+    
+   }
+
+   .coloana-2 a{
+    text-decoration: none;
+    text-align: center;
+    padding-top: 15px;
+    
+   }
+
+   .coloana-3{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+    
+   }
+
+   .coloana-3 a{
+    text-decoration: none;
+    gap: 50px;
+   }
+
+   .coloana-4{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
+   }
+   .coloana-4 a{
+    text-decoration: none;
+    text-align: center;
+   }
+
+   .coloana-1{
+    padding-right: 200px;
+   }
+
+
+   .text-shop{
+    padding-left: 130px;
+    font-size: 50px;
+   }
+
+
+   .rand-1-shop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 860px;
+    padding-bottom: 40px;
+   }
+
+   .imagini-shop{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+   }
+
+   .imagini-shop input{
+    color: white;
+    background-color: black;
+    padding: 15px;
+    cursor: pointer;
+   }
+
+
+   .element-blog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+
+    
+   }
+
+   .element-blog h3{
+    text-decoration: underline;
+    font-size: 40px;
+
+   }
+
+   .text-blog-1{
+    font-size: 25px;
+    margin-left: -100px;
+   }
+
+   .text-blog-2{
+    width: 400px;
+    
+   }
+
+   .text-blog-3{
+    margin-right: 280px;
+    text-decoration: underline;
+    margin-top: 50px;
+   }
+   
+
+   hr{
+    width: 400px;
+   }
+
+
+   .element-3 a:hover{
+    text-decoration: underline;
+   }
+
+
+ .element-contact{
+    text-align: center;
+    font-weight: 300px;
+    font-size: 32px;
+    padding-top: 70px;
+    
+    
+   
+ }
+
+.linie-contact {
+    width: 150px;
+}
+
+
+.contact-main{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 300px;
+    text-align: center;
+    
+    
+}
+
+.contact-main form input {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.contact-main textarea{
+width: 300px;
+padding: 10px;
+}
+
+.contact-main button{
+    width: 320px;
+    padding: 10px;
+    background-color: #F9D3A5;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid #F9D3A5;
+    border-radius: 5px;
+}
+
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.contact-main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 320px;
+    gap: 200px;
+    padding-top: 200px;
+    
+}
+
